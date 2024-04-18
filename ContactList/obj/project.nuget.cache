@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MeW/SWidaCSeVwpGDleBNJtbJrQk1HwxKChod+x5gNDkhgmc9S2J5rqhFluOchgT8wONYlUnpLEXNeyOhsrtAA==",
+  "success": true,
+  "projectFilePath": "/home/andre/Documentos/formacao_c#/praticas/CSHAP-CRUD-API/ContactList/ContactList.csproj",
+  "expectedPackageFiles": [
+    "/home/andre/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/andre/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/andre/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/andre/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/andre/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/andre/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
