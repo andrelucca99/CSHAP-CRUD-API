@@ -42,6 +42,22 @@ public class ContactController : ControllerBase
     }
   }
 
+  [HttpGet("{id}")]
+  public ActionResult GetByList(int id)
+  {
+    try
+    {
+      var contactPerson = _service.getByIdPerson(id);
+
+      if (contactPerson == null) return NotFound("Contact person not found");
+      return Ok(contactPerson);
+    }
+    catch (Exception ex)
+    {
+      return BadRequest(new { message = ex.Message.ToString() });
+    }
+  }
+
   [HttpPut("{PersonId}")]
   public ActionResult Put(int PersonId, Person person)
   {

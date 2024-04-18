@@ -26,6 +26,11 @@ public class ContactService : IContactService
     return _personList.Where(person => person != null).ToArray();
   }
 
+  public Person getByIdPerson(int PersonId)
+  {
+    return _personList.FirstOrDefault(person => person.PersonId == PersonId)!;
+  }
+
   public Person updatePerson(int PersonId, Person person)
   {
     _personList[PersonId - 1].PersonName = person.PersonName;
