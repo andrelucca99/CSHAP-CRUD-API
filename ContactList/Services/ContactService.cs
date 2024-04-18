@@ -5,7 +5,6 @@ public class ContactService : IContactService
 {
   private int _nextPersonId;
   private Person[] _personList;
-
   public ContactService()
   {
     _nextPersonId = 1;
@@ -17,6 +16,7 @@ public class ContactService : IContactService
     if (_nextPersonId > _personList.Length)
       throw new Exception("More than " + _personList.Length.ToString() + " contacts is not allowed");
     person.PersonId = _nextPersonId;
+    _personList[_nextPersonId - 1] = person;
     _nextPersonId += 1;
     return person;
   }
