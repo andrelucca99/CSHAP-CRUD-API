@@ -17,6 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("ContactList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("ContactList.Test")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
